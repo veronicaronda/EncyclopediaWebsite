@@ -1,0 +1,318 @@
+:root{
+    --firstColor: #800020;
+    --secondColor: #0C0F0A;
+    --thirdColor: #E8E8E8;
+    --fourthColor: #30d5c8;
+    --btnEditColor: #ffbf00;
+    --btnDeleteColor: #cc4e5c;
+    --fontTitle: "DM Serif Display", serif;
+    --fontBody: "EB Garamond", serif;
+    
+    font-size: 10px;
+}
+a{
+    text-decoration: none !important;
+    color: var(--fourthColor) !important;
+}
+h2{
+    font-family: var(--fontBody);
+    font-weight: bold;
+    font-size: 2.3rem !important;
+    line-height: 2;
+}
+.bgFirstColor{
+    background-color: var(--firstColor) !important;
+
+}
+.bgSecondColor{
+    background-color: var(--secondColor);
+
+}
+.bgThirdColor{
+    background-color: var(--thirdColor) !important;
+}
+.bgFourthColor{
+    background-color: var(--fourthColor) !important;
+}
+.firstColor{
+    color: var(--firstColor) !important;
+}
+.secondColor{
+    color: var(--secondColor) !important;
+}
+.thirdColor{
+    color: var(--thirdColor) !important;
+}
+.fourthColor{
+    color: var(--fourthColor) !important;
+}
+#search[placeholder]{
+    padding-left: 3.3rem;
+}
+.fa-magnifying-glass{
+    font-size: 1.5rem;
+}
+/* navbar style */
+.navbar{
+    --bs-navbar-toggler-focus-width:0 !important;
+
+}
+.navbar li a{
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+}
+#books{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.7);
+}
+
+.logoTitle{
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    color: var(--firstColor);
+    font-style: italic;
+    line-height: 1;
+    margin-left: 2rem;
+}
+.size{
+    width: 50px;
+    height: 50px;
+}
+/* side menu style */
+#sideMenu a{
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    color: var(--firstColor) !important;
+    text-decoration: none;
+    list-style-type: none;
+}
+#sideMenu a li{
+    padding: 1rem 0;
+
+}
+#sideMenu a:hover{
+    text-decoration: underline;
+}
+.nav-link:hover{
+    color: var(--thirdColor) !important;
+}
+.dropdownMenuCustom{
+    width: calc(100% - 68.683px) !important;
+    border: 1px solid var(--firstColor);
+}
+.dropdown-divider{
+    border: 1px solid var(--firstColor) !important;
+    /* width: 50% !important; */
+}
+.dropdown-menu li a{
+    font-family: var(--fontTitle);
+    font-size: 1.8rem;
+    color: var(--firstColor);
+}
+
+/* mobile menu style */
+
+#sideMenuMobile a{
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    color: var(--thirdColor);
+    text-decoration: none;
+    list-style-type: none;
+
+}
+#sideMenuMobile a li{
+    padding: 1rem 0;
+
+}
+.fa-xmark{
+    cursor: pointer;
+}
+.dropdown-toggle{
+    color: white;
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+}
+.button{
+    width: 156.6px;
+}
+/* add entry form style */
+input{
+    height: 3.5rem !important;
+    font-family: var(--fontBody);
+    font-size: 1.8rem !important;
+}
+textarea[placeholder], textarea{
+    font-family: var(--fontBody);
+    font-size: 1.7rem !important;
+}
+label,.titleTags{
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--thirdColor);
+}
+
+.tags{
+    font-family: var(--fontBody);
+    font-weight: bold;
+    color: var(--thirdColor);
+    font-size: 1.5rem;
+}
+.tags:hover{
+    background-color: var(--thirdColor) !important;
+    color: var(--firstColor) !important;
+}
+input[type=checkbox]:checked + label {
+    background-color: var(--thirdColor) !important;
+    color: var(--firstColor) !important; 
+
+}
+.btnSubmit{
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    background-color: var(--thirdColor);
+    border: none;
+    color: var(--firstColor);
+    --bs-btn-active-bg: none;
+}
+h1{
+    font-family: var(--fontTitle);
+    font-size: 4rem;
+}
+.btnSubmit:hover{
+    background-color: var(--firstColor);
+    color: var(--thirdColor);
+}
+
+/* --Category dropdown */
+/* .categoryContainer{
+    
+} */
+#categorySelect{
+    background-color: var(--firstColor) !important;
+    font-family: var(--fontTitle);
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: var(--thirdColor);
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    border: none;
+    /* border-bottom: solid 1px var(--thirdColor); */
+}
+.fa-chevron-down{
+    font-size: 1.7rem;
+    color: var(--thirdColor);
+    
+    
+}
+#categorySelect option{
+    border: none !important;
+}
+.categoryBottomLine{
+   border-bottom: solid 1px var(--thirdColor);
+}
+
+select.decorated option:hover{
+    background-color: var(--thirdColor) !important;
+    color: var(--firstColor) !important;
+}
+
+/* home cards style */
+.card{
+    border: 1px solid var(--firstColor) !important;
+}
+.card-body{
+    font-family: var(--fontTitle);
+    font-size: 2rem;
+    color: var(--firstColor);
+}
+
+/* logIn SignIn style */
+
+.textSmall{
+    font-family: var(--fontBody);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* display entry */
+
+.vh-50{
+    height: 50vh;
+}
+.imgContainer{
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.date{
+    font-family: var(--fontBody);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.entryBody{
+    font-family: var(--fontBody);
+    font-size: 2rem;
+}
+.entryBody a{
+    color: var(--fourthColor) !important;
+    /* text-decoration: none !important; */
+}
+
+.imgContainer::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(12, 15, 10, 0.3);
+}
+
+.cardContainer a{
+    text-decoration: none !important;
+}
+
+h3:hover{
+    color: var(--fourthColor) ;
+}
+
+.btnEditCostum, .btnDeleteCostum{
+    font-family: var(--fontTitle);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 2rem;
+}
+.btnEditCostum{
+    background-color: var(--btnEditColor);
+    color: var(--secondColor) !important;
+    text-decoration: none !important;
+
+}
+
+.btnDeleteCostum{
+    background-color: var(--btnDeleteColor);
+    color: var(--thirdColor);
+}
+.categoryTxt{
+    font-family: var(--fontBody);
+    font-style: italic;
+}
+.categoryTxt a{
+    font-size: 1.7rem;
+}
+.borderBottom{
+    border-bottom: 1px solid var(--firstColor);
+}
+
+/* alert style */
+.alert-success{
+    background-color: rgba(48, 213, 199, 0.5) !important;
+    font-family: var(--fontTitle) !important;
+    font-size: 2rem !important;
+    font-style: italic;
+}
